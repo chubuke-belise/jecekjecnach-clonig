@@ -1,0 +1,177 @@
+.section-5{
+    margin: 7rem  0 0 4em;
+    display: flex;
+    gap: 1rem;
+}
+
+.section-5 h2{
+    color: cyan;
+    font-size: 4.5rem;
+}
+
+.section-5 h2::before{
+    content: '<h2>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+    
+.section-5 h2::after{
+    content: '</h2>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: -25.5rem;
+}
+
+
+
+.section-5 p{
+    color: cornsilk;
+    letter-spacing: 1px;
+}
+
+.section-5 .left p::before{
+    content: '<p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -1rem;
+}
+    
+.section-5 .left p::after{
+    content: '</p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -16.3rem;
+}
+
+.section-5 .form {
+    margin-top: 8rem;
+}
+
+.section-5 .form div{
+    margin-top: 1rem;
+}
+
+.section-5 .form .form-1 input{
+    width: 12.9rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    background-color: #282829;
+    border: none;
+    padding-left: 1.3rem;
+}
+
+.section-5 .form .long-form input{
+    width: 27.7rem;
+    height: 3rem;
+    background-color:  #282829;
+    border: none;
+    font-size: 1.3rem;
+    padding-left: 1.3rem;
+}
+
+.section-5 .form textarea{
+    background-color:  #282829;
+    border: none;
+    font-size: 1rem;
+    width: 27.7rem;
+    padding-left: 1.3rem;
+}
+
+.section-5 form::before{
+    content: '<form>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -1rem;
+}
+    
+.section-5 form::after{
+    content: '</form>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+
+
+.section-5 .right{
+    width: 100%;
+    height: 57rem;
+    background-image: url("https://jacekjeznach.com/wp-content/themes/new/img/map.png");
+    background-repeat: no-repeat;
+}
+
+.section-5 .right div{
+    margin: 5rem;
+    background-color: black;
+    width: 45%;
+    opacity: 80%;
+}
+
+.section-5 .right div p{
+    padding: 1.5rem;
+}
+
+.button-container-3{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-left: 230px;
+  }
+
+.section-5::after{
+    content: '</body>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 53rem;
+    margin-left: -2rem;
+}
+
+body::after{
+    content: '</html>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    top: 266rem;
+    margin-left: 9rem;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .section-5{
+        align-items: center;
+        justify-content: center;
+        margin-left: -4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

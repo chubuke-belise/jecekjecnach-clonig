@@ -1,0 +1,94 @@
+
+.section-3 .left h2{
+    color: cyan;
+    font-size: 4rem;
+    margin: 9rem 0 0 7rem;
+}
+
+.section-3 .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -12rem;
+    gap: 5rem;
+}
+
+.section-3 .left .myself {
+    margin-top: -5rem;
+}
+
+.section-3 .left svg{
+    margin-top: 5rem;
+}
+
+.section-3 .left p{
+    color: cornsilk;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.section-3 .left p::before{
+    content: '<p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -1rem;
+}
+    
+.section-3 .left p::after{
+    content: '</p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -22.5rem;
+}
+
+.inside-style{
+    color: cyan;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.inside-style:hover{
+    color: rgb(26, 159, 159);
+    transition: .3s;
+}
+
+.section-3  .time-line{
+    margin: 0.5rem 0 0 7rem ;
+}
+
+.section-3  .time-line img{
+    width: 25rem;
+}
+
+.section-3 section:nth-child(1) {
+    width: 40%;
+}
+
+.section-3 section:nth-child(2) {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .section-3 .left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-3  .time-line{
+        margin-left: -4rem;
+    }
+}
+

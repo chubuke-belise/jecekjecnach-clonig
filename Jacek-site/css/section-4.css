@@ -1,0 +1,61 @@
+.section-4 .word-bg p{
+    margin-top: -13rem;
+    margin-left: -4rem;
+}
+
+.section-4 .articles{
+    margin-top: 10rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.section-4 .articles h3{
+    color: cornsilk;
+    font-size: 1.5rem;
+}
+
+.section-4 .articles div > div{
+    width: 20rem;
+    height: 14rem;
+    margin-top: 2rem;
+    background-color: rgb(27, 26, 26);
+    box-shadow: 2px 2px 3px  rgba(9, 9, 9, 0.59);
+}
+
+.section-4 .articles .articles-3 div h3{
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .articles h3:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .section-4 .articles{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .section-4 .articles div{
+        width: 3rem;
+    }
+
+    .section-4 .word-bg p{
+        margin-top: -13rem;
+        margin-left: -9rem;
+        font-size: 12rem;
+    }
+
+    .section-4 .articles div > div{
+        width: 25rem;
+
+        height: 14rem;
+        background-color: rgb(27, 26, 26);
+        box-shadow: 2px 2px 3px  rgba(9, 9, 9, 0.59);
+    }
+}

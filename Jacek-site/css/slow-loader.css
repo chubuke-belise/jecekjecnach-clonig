@@ -1,0 +1,10 @@
+.slowloader{
+    transform: translatey(100px);
+    opacity: 0;
+    transition: 150ms;
+}
+
+.show{
+    transform: translatey(0);
+    opacity: 1;
+}
